@@ -1,6 +1,6 @@
 /**
  * The function returns the grade (1-5) of the student,
- * based on the score and the following rules:
+ * based on the  score and the following rules:
  *  - 90 -    : 5
  *  - 80 - 89 : 4
  *  - 70 - 79 : 3
