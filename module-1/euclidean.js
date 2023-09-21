@@ -16,8 +16,13 @@ function euclidean(a, b) {
      * Also, take into consideration the documentation of the function!
      */
     // PLACE YOUR CODE BETWEEN THIS...
-
-
+    if (a === NaN || b === NaN || a < 0 || 0 > b) return 0;
+    while(b !== 0){
+        let t = b;
+        b = a % b;
+        a = t;
+    }
+    gcd = a;
     // ...AND THIS COMMENT LINE!
     return gcd;
 }
